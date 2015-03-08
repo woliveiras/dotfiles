@@ -1,0 +1,4 @@
+[
+  { "keys": ["ctrl+space"], "command": "auto_complete" },
+  { "keys": ["ctrl+;"], "command": "toggle_comment", "args": { "block": true } },
+]

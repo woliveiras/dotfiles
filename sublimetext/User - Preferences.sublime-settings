@@ -1,0 +1,20 @@
+{
+  "bold_folder_labels": true,
+  "font_size": 12,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "rulers":
+  [
+    90
+  ],
+  "show_full_path": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": true,
+  "wrap_width": 90
+}
