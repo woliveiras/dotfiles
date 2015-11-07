@@ -1,6 +1,7 @@
 {
-  "bold_folder_labels": true,
+  "font_face": "Ubuntu",
   "font_size": 12,
+  "bold_folder_labels": true,
   "highlight_line": true,
   "highlight_modified_tabs": true,
   "ignored_packages":
