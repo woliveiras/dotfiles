@@ -2,30 +2,32 @@ To use this archive is needed press CTRL + SHIFT + P and write: Package Control 
 Copy and Paste the content below and wait. ;)
 
 {
+  "bootstrapped": true,
   "in_process_packages":
   [
   ],
   "installed_packages":
   [
-    "Alignment",
-    "AutoFileName",
-    "AutoCompleteJS",
-    "Color Highlighter",
-    "ColorPicker",
+    "All Autocomplete",
+    "Anaconda",
+    "Babel",
     "CSS3",
+    "DocBlockr",
     "EditorConfig",
+    "EJS",
     "Emmet",
-    "FileDiffs",
-    "HTML5",
-    "JSLint",
-    "LESS",
+    "GitGutter",
+    "Hayaku - tools for writing CSS faster",
+    "JavaScript Completions",
+    "jQuery",
+    "JsFormat",
+    "Markdown Extended",
     "Markdown Preview",
     "Package Control",
+    "requirementstxt",
     "Sass",
     "SideBarEnhancements",
-    "SideBarFolders",
-    "Slugify",
     "Stylus",
-    "SyncedSideBar"
+    "Stylus-Snippets"
   ]
 }
