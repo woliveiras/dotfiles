@@ -2,32 +2,34 @@ To use this archive is needed press CTRL + SHIFT + P and write: Package Control 
 Copy and Paste the content below and wait. ;)
 
 {
-  "bootstrapped": true,
-  "in_process_packages":
-  [
-  ],
-  "installed_packages":
-  [
-    "All Autocomplete",
-    "Anaconda",
-    "Babel",
-    "CSS3",
-    "DocBlockr",
-    "EditorConfig",
-    "EJS",
-    "Emmet",
-    "GitGutter",
-    "Hayaku - tools for writing CSS faster",
-    "JavaScript Completions",
-    "jQuery",
-    "JsFormat",
-    "Markdown Extended",
-    "Markdown Preview",
-    "Package Control",
-    "requirementstxt",
-    "Sass",
-    "SideBarEnhancements",
-    "Stylus",
-    "Stylus-Snippets"
-  ]
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Anaconda",
+		"Babel",
+		"BracketHighlighter",
+		"CSS3",
+		"DocBlockr",
+		"EditorConfig",
+		"EJS",
+		"Emmet",
+		"GitGutter",
+		"Hayaku - tools for writing CSS faster",
+		"JavaScript Completions",
+		"jQuery",
+		"JsFormat",
+		"Markdown Extended",
+		"Markdown Preview",
+		"Package Control",
+		"requirementstxt",
+		"Sass",
+		"SideBarEnhancements",
+		"Stylus",
+		"Stylus-Snippets"
+	]
 }
+
