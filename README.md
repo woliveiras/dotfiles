@@ -10,7 +10,7 @@ Copy the file (vero_pt_br_vxxx.oxt) into Languages folder of Sublime in your OS.
 
 > Packages folder Linux (Debian/Ubuntu)
 
-```bash
+```
 /home/user/.config/sublime-text-3
 ```
 
