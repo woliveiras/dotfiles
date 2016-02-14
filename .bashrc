@@ -136,6 +136,5 @@ PS1="$GREEN\u@\h$NO_COLOR:\w$YELLOW\$(git_branch)$NO_COLOR\$ "
 export PATH="/usr/local/heroku/bin:$PATH"
 
 # Aliases
-# WORKSPACE directory
 alias wsp ="cd /media/william/DATA/WORKSPACE/"
 alias ls = "ls la"
