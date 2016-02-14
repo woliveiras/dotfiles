@@ -1,23 +1,22 @@
 {
-        "bold_folder_labels": true,
-        "dictionary": "Packages/languages/vero_pt_br_v208aoc/pt_BR.dic",
-        "font_face": "Ubuntu",
-        "font_size": 11,
-        "highlight_line": true,
-        "highlight_modified_tabs": true,
-        "ignored_packages":
-        [
-                "Vintage"
-        ],
-         "rulers":
-        [
-                80
-        ],
-        "show_full_path": true,
-        "tab_size": 2,
-        "translate_tabs_to_spaces": true,
-        "trim_trailing_white_space_on_save": true,
-        "word_wrap": true,
-        "wrap_width": 80,
-	"scroll_past_end": true
+	"bold_folder_labels": true,
+	"dictionary": "Packages/languages/vero_pt_br_v208aoc/pt_BR.dic",
+	"font_face": "Ubuntu",
+	"font_size": 11,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+	        "Vintage"
+	],
+	 "rulers":
+	[
+	        80
+	],
+	"scroll_past_end": true,
+	"show_full_path": true,
+	"tab_size": 2,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true,
+	"wrap_width": 80
 }
