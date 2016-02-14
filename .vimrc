@@ -1,13 +1,14 @@
 " Cute ;D
 syntax on
-set encoding=utf8
+set encoding=utf8 nobomb
 set number
-set tabstop=4
-set eb
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set expandtab
+set eb
 set hlsearch incsearch smartcase
 set ignorecase
-set incsearch
 set showcmd
 set showmatch
 set textwidth=90
@@ -15,6 +16,23 @@ set cursorline
 filetype plugin indent on
 set ruler
 set hidden
+set colorcolumn=80
+set directory=~/.vim/swaps
+set history=5000
+set scrolloff=10
+set wildmenu
+
+" Backup
+set backupdir=~/.vim/backups
+set backupskip=/tmp/*
+set backupskip+=/private/tmp/*
+
+" Use system clipboard
+set clipboard=unnamed
+
+if has('unnamedplus')
+  set clipboard+=unnamedplus
+endif
 
 " Airline config
 set laststatus=2
@@ -37,6 +55,7 @@ map <C-l> <C-W>l
 nnoremap <space> za
 
 " Theme
+set t_Co=256
 colorscheme monokai
 
 " Configure Vundle
@@ -70,9 +89,9 @@ Plugin 'garbas/vim-snipmate'
 "  Plugin 'honza/vim-snippets'
 
 call vundle#end()
+" End Vundle configuration
 
 "Configs to markdown preview
-
 let vim_markdown_preview_github=1
 let vim_markdown_preview_toggle=3
 let vim_markdown_preview_hotkey='<C-p-v>'
