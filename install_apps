@@ -18,11 +18,11 @@ printf "${RED}Install essentials${NC}\n------- \n"
 
 sudo apt-get install -y build-essential libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext p7zip p7zip-full p7zip-rar lzma lzma-dev ubuntu-restricted-extras
 
-## Git + Git-Cola + Node + NVM + VIM
+## Git + Git-Cola + Node + NVM + VIM + Meld
 
 printf "${RED}Dev essentials${NC}\n------- \n"
 
-sudo apt-get install -y git git-cola nodejs vim
+sudo apt-get install -y git git-cola nodejs vim meld
 
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
 
@@ -36,11 +36,10 @@ nvm install 0.12
 printf "${RED}Install others${NC}\n------- \n"
 
 sudo add-apt-repository ppa:indicator-multiload/stable-daily
-sudo add-apt-repository ppa:transmissionbt/ppa
 
 sudo apt-get update
 
-sudo apt-get install -y gimp inkscape indicator-multiload transmission transmission-qt vlc browser-plugin-vlc 
+sudo apt-get install -y gimp inkscape indicator-multiload vlc browser-plugin-vlc 
 
 ## Remember
 
