@@ -1,22 +1,26 @@
 #!/bin/bash
 
+RED='\033[0;31m'
+BLUE='\033[1;34m'
+NC='\033[0m' # No Color
+
 ## Apps used on System
 
 ## Update System
 
-echo "Updating System"
+printf "${RED}Updating System${NC}\n------- \n"
 
 sudo apt-get update && sudo apt-get upgrade -y
 
 ## Essential packages
 
-echo "Install essentials"
+printf "${RED}Install essentials${NC}\n------- \n"
 
 sudo apt-get install -y build-essential libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext p7zip p7zip-full p7zip-rar lzma lzma-dev ubuntu-restricted-extras
 
 ## Git + Git-Cola + Node + NVM + VIM
 
-echo "Dev essentials"
+printf "${RED}Dev essentials${NC}\n------- \n"
 
 sudo apt-get install -y git git-cola nodejs vim
 
@@ -29,7 +33,7 @@ nvm install 0.12
 
 ## Others
 
-echo "Install others"
+printf "${RED}Install others${NC}\n------- \n"
 
 sudo add-apt-repository ppa:indicator-multiload/stable-daily
 sudo add-apt-repository ppa:transmissionbt/ppa
@@ -40,4 +44,4 @@ sudo apt-get install -y gimp inkscape indicator-multiload transmission transmiss
 
 ## Remember
 
-echo "Remember to install later: SublimeText, Chrome, Slack, Java (uurgh), Meld"
+printf "\n ---- \n\n${NC}Remember to install later: \n${BLUE}- SublimeText\n- Chrome\n- Slack\n- Java (uurgh)\n- Meld${NC}\n\n ---- \n"
