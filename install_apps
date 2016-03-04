@@ -10,18 +10,13 @@ sudo apt-get update && sudo apt-get upgrade -y
 
 ## Essential packages
 
-sudo apt-get install -y build-essential libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext unzip
+echo "Install essentials"
 
-sudo add-apt-repository ppa:indicator-multiload/stable-daily
-sudo add-apt-repository ppa:transmissionbt/ppa
-
-sudo apt-get update
-
-## Restricted extras
-
-sudo apt-get install -y ubuntu-restricted-extras
+sudo apt-get install -y build-essential libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext p7zip p7zip-full p7zip-rar lzma lzma-dev ubuntu-restricted-extras
 
 ## Git + Git-Cola + Node + NVM + VIM
+
+echo "Dev essentials"
 
 sudo apt-get install -y git git-cola nodejs vim
 
@@ -33,6 +28,13 @@ nvm install stable
 nvm install 0.12
 
 ## Others
+
+echo "Install others"
+
+sudo add-apt-repository ppa:indicator-multiload/stable-daily
+sudo add-apt-repository ppa:transmissionbt/ppa
+
+sudo apt-get update
 
 sudo apt-get install -y gimp inkscape indicator-multiload transmission transmission-qt vlc browser-plugin-vlc 
 
