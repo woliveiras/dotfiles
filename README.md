@@ -1,8 +1,8 @@
-# Configs
+# Dotfiles
 
 Repo to host my configurations for developer tools
 
-##Install spell checker pt_BR
+##Install spell checker pt_BR on Sublimetext
 
 Download latest version of [Vero](https://pt-br.libreoffice.org/projetos/vero/).
 
