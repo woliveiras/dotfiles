@@ -1,0 +1,41 @@
+#!/bin/bash
+
+## Apps used on System
+
+## Update System
+
+echo "Updating System"
+
+sudo apt-get update && sudo apt-get upgrade -y
+
+## Essential packages
+
+sudo apt-get install -y build-essential libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext unzip
+
+sudo add-apt-repository ppa:indicator-multiload/stable-daily
+sudo add-apt-repository ppa:transmissionbt/ppa
+
+sudo apt-get update
+
+## Restricted extras
+
+sudo apt-get install -y ubuntu-restricted-extras
+
+## Git + Git-Cola + Node + NVM + VIM
+
+sudo apt-get install -y git git-cola nodejs vim
+
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
+
+. ~/.nvm/nvm.sh
+
+nvm install stable
+nvm install 0.12
+
+## Others
+
+sudo apt-get install -y gimp inkscape indicator-multiload transmission transmission-qt vlc browser-plugin-vlc 
+
+## Remember
+
+echo "Remember to install later: SublimeText, Chrome, Slack, Java (uurgh), Meld"
