@@ -10,7 +10,15 @@ NC='\033[0m' # No Color
 
 printf "${RED}Updating System${NC}\n------- \n"
 
-sudo apt-get update && sudo apt-get upgrade -y
+sudo add-apt-repository ppa:indicator-multiload/stable-daily -y
+sudo add-apt-repository ppa:synapse-core/ppa -y
+sudo add-apt-repository ppa:tualatrix/ppa -y
+sudo add-apt-repository ppa:shnatsel/zram -y
+sudo add-apt-repository ppa:linrunner/tlp -y
+sudo add-apt-repository ppa:tsbarnes/indicator-keylock -y
+
+sudo apt-get update
+sudo apt-get upgrade -y
 
 ## Essential packages
 
@@ -36,11 +44,21 @@ nvm install 0.12
 
 printf "${RED}Install others${NC}\n------- \n"
 
-sudo add-apt-repository ppa:indicator-multiload/stable-daily
+sudo apt-get install -y gimp inkscape vlc browser-plugin-vlc -y
 
-sudo apt-get update
+## Optimize Ubuntu
 
-sudo apt-get install -y gimp inkscape indicator-multiload vlc browser-plugin-vlc 
+printf "${RED}Optimize Ubuntu${NC}\n------- \n"
+
+sudo apt-get install indicator-multiload synapse ubuntu-tweak compizconfig-settings-manager preload zramswap-enabler indicator-keylock -y
+
+## Optimize battery management
+
+sudo apt-get remove laptop-mode-tools
+
+sudo apt-get install tlp tlp-rdw
+
+sudo tlp start
 
 ## Remember
 
