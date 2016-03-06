@@ -38,6 +38,10 @@ mkdir ~/.nvm
 nvm install stable
 nvm install 0.12
 
+Warning "Install Heroku toolbelt"
+
+wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
 Warning "Copy configs to /home"
 
 cp -v .bashrc .gitconfig .nvmrc .vimrc $HOME
