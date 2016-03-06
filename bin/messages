@@ -1,0 +1,9 @@
+#!/bin/bash
+
+Warning ( ) {
+    printf "\n${RED}$1${NC}\n------- \n"
+}
+
+Alert ( ) {
+    printf "\n ---- \n\n${NC}$1\n${BLUE}$2${NC}\n\n ---- \n"
+}

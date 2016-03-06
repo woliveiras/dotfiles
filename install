@@ -1,71 +1,69 @@
 #!/bin/bash
 
-RED='\033[0;31m'
-BLUE='\033[1;34m'
-NC='\033[0m' # No Color
+## utils
+
+. bin/colors
+. bin/messages
+. bin/utils
 
 ## Apps used on System
 
 ## Update System
 
-printf "${RED}Updating System${NC}\n------- \n"
+Warning "Adding PPAs"
 
-sudo add-apt-repository ppa:indicator-multiload/stable-daily -y
-sudo add-apt-repository ppa:synapse-core/ppa -y
-sudo add-apt-repository ppa:tualatrix/ppa -y
-sudo add-apt-repository ppa:shnatsel/zram -y
-sudo add-apt-repository ppa:linrunner/tlp -y
-sudo add-apt-repository ppa:tsbarnes/indicator-keylock -y
+. bin/repositoryes
 
-sudo apt-get update
-sudo apt-get upgrade -y
+Warning "Updating System"
+
+UpdateSystem
 
 ## Essential packages
 
-printf "${RED}Install essentials${NC}\n------- \n"
+Warning "Install essentials"
 
-sudo apt-get install -y build-essential libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext p7zip p7zip-full p7zip-rar lzma lzma-dev ubuntu-restricted-extras
+Install "build-essential libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext p7zip p7zip-full p7zip-rar lzma lzma-dev ubuntu-restricted-extras"
 
 ## Git + Git-Cola + Node + NVM + VIM + Meld
 
-printf "${RED}Dev essentials${NC}\n------- \n"
+Warning "Dev essentials"
 
-sudo apt-get install -y git git-cola nodejs vim meld
+Install "git git-cola nodejs vim meld"
+
+Warning "Install and Configure NVM"
 
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
 
-printf "${RED}Configure NVM${NC}\n------- \n"
-
 mkdir ~/.nvm
-
 nvm install stable
-
 nvm install 0.12
 
-printf "${RED}Copy configs to /home${NC}\n------- \n"
+Warning "Copy configs to /home"
 
 cp -v .bashrc .gitconfig .nvmrc .vimrc $HOME
 
 ## Others
 
-printf "${RED}Install others${NC}\n------- \n"
+Warning "Install others"
 
-sudo apt-get install -y gimp inkscape vlc browser-plugin-vlc -y
+Install "gimp inkscape vlc browser-plugin-vlc"
 
 ## Optimize Ubuntu
 
-printf "${RED}Optimize Ubuntu${NC}\n------- \n"
+Warning "Optimize Ubuntu"
 
-sudo apt-get install indicator-multiload synapse ubuntu-tweak compizconfig-settings-manager preload zramswap-enabler indicator-keylock -y
+Install "indicator-multiload synapse ubuntu-tweak compizconfig-settings-manager preload zramswap-enabler indicator-keylock"
 
 ## Optimize battery management
 
+Warning "Optimize battery management"
+
 sudo apt-get remove laptop-mode-tools
 
-sudo apt-get install tlp tlp-rdw
+Install "tlp tlp-rdw"
 
 sudo tlp start
 
 ## Remember
 
-printf "\n ---- \n\n${NC}Remember to install later: \n${BLUE}- SublimeText\n- Chrome\n- Slack\n- Java (uurgh)\n- Meld${NC}\n\n ---- \n"
+Alert "Remember to install later: " "- SublimeText\n- Chrome\n- Slack\n- Java (uurgh)"
