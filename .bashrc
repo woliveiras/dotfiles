@@ -127,7 +127,3 @@ export PS1="\[\033[1;30m\][\[\033[1;34m\]\u@\H\[\033[1;30m\]:\[\033[0;37m\]${SSH
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
-
-# Aliases
-alias wsp = "cd /media/william/DATA/WORKSPACE/"
-alias ls = "ls la"
