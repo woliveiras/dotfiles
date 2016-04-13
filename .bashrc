@@ -84,10 +84,17 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-# some more ls aliases
+# ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+
+# Apache aliases
+alias restartapache='sudo /usr/sbin/apachectl restart'
+
+# Docker aliases
+alias stopallcontainers='docker stop $(docker ps -qa)'
+alias rmallcontainers='docker rm $(docker ps -qa)'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
