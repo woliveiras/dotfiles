@@ -84,10 +84,13 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-# ls aliases
+# some more aliases
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias cdwsp='cd /media/william/DATA/WORKSPACE/'
+alias cdprojects='cd /media/william/DATA/WORKSPACE/Projects'
+alias ..='cd ..'
 
 # Apache aliases
 alias restartapache='sudo /usr/sbin/apachectl restart'

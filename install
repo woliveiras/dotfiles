@@ -4,7 +4,7 @@
 
 . bin/colors
 . bin/messages
-. bin/utils
+. bin/functions
 
 ## Apps used on System
 
@@ -12,7 +12,7 @@
 
 Warning "Adding PPAs"
 
-. bin/repositoryes
+. settings/add-repositoryes
 
 Warning "Updating System"
 
@@ -30,7 +30,7 @@ Warning "Dev essentials"
 
 Install "git git-cola nodejs vim meld"
 
-Warning "Install and Configure NVM"
+Warning "Install and Configure NVM 0.31.0, install NVM NodeJS stable and 0.12"
 
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
 
