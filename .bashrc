@@ -91,6 +91,7 @@ alias l='ls -CF'
 alias cdwsp='cd /media/william/DATA/WORKSPACE/'
 alias cdprojects='cd /media/william/DATA/WORKSPACE/Projects'
 alias ..='cd ..'
+alias pyserver='python -m SimpleHTTPServer 8000'
 
 # Apache aliases
 alias restartapache='sudo /usr/sbin/apachectl restart'
