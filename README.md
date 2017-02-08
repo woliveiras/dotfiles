@@ -33,6 +33,10 @@ List of software to be installed with the scripts:
 
 Just run `sh install` on your Terminal and observe the Magic!
 
+<p align="center">
+    <img src="/bin/magic.gif" alt="Magic Gif">
+</p>
+
 Shell is :heart:.
 
 ##Install spell checker pt_BR on Sublimetext
