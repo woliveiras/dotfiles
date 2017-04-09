@@ -2,9 +2,7 @@
 
 ## utils
 
-. bin/colors
-. bin/messages
-. bin/functions
+. bin/autoload
 
 ## Apps used on System
 
@@ -12,7 +10,7 @@
 
 Warning "Adding PPAs"
 
-. settings/add-repositoryes
+. bin/system-settings/add-repositoryes
 
 Warning "Updating System"
 
@@ -44,7 +42,7 @@ wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
 Warning "Copy configs to /home"
 
-cp -v .bashrc .gitconfig .nvmrc .vimrc $HOME
+cp -v bin/system-settings/.bashrc bin/system-settings/.gitconfig bin/system-settings/.nvmrc bin/system-settings/.vimrc $HOME
 
 ## Others
 

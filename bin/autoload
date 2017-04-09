@@ -1,0 +1,3 @@
+. bin/colors
+. bin/messages
+. bin/functions
