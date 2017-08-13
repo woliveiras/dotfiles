@@ -42,7 +42,7 @@ wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
 Warning "Copy configs to /home"
 
-cp -v bin/system-settings/.bashrc bin/system-settings/.gitconfig bin/system-settings/.nvmrc bin/system-settings/.vimrc $HOME
+cp -v bin/system-settings/.bashrc bin/system-settings/.gitconfig bin/system-settings/.vimrc $HOME
 
 ## Others
 
