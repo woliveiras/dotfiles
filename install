@@ -22,13 +22,19 @@ Warning "Install essentials"
 
 Install "build-essential libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext p7zip p7zip-full p7zip-rar lzma lzma-dev ubuntu-restricted-extras"
 
-## Git + Git-Cola + Node + NVM + VIM + Meld
+## Git + Git-Cola + Node + VIM + Meld
 
 Warning "Dev essentials"
 
-Install "git git-cola vim meld"
+Install "curl git git-cola vim meld"
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+Warning "Install Heroku toolbelt"
+
+wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
+cp -v bin/system-settings/.bashrc bin/system-settings/.gitconfig bin/system-settings/.vimrc $HOME
 
 Warning "Install and Configure NVM and NodeJS (stable and 0.12)"
 
@@ -37,14 +43,6 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | b
 mkdir ~/.nvm
 nvm install stable
 nvm install 0.12
-
-Warning "Install Heroku toolbelt"
-
-wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
-
-Warning "Copy configs to /home"
-
-cp -v bin/system-settings/.bashrc bin/system-settings/.gitconfig bin/system-settings/.vimrc $HOME
 
 ## Others
 
