@@ -58,10 +58,8 @@ nnoremap <space> za
 set t_Co=256
 colorscheme monokai
 
-" Configure Vundle
-set nocompatible
-
 " Vundle config
+set nocompatible
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
