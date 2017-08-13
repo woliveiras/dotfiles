@@ -88,9 +88,8 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias cdwsp='cd /media/william/DATA/WORKSPACE/'
-alias cdprojects='cd /media/william/DATA/WORKSPACE/Projects'
 alias ..='cd ..'
+alias cola='git-cola'
 alias pyserver='python -m SimpleHTTPServer 8000'
 
 # Apache aliases
