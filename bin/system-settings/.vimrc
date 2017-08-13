@@ -34,17 +34,6 @@ if has('unnamedplus')
   set clipboard+=unnamedplus
 endif
 
-" Airline config
-set laststatus=2
-
-" TagBar config
-nmap <F8> :TagbarToggle<CR>
-
-" NerdTree config
-map <C-n> :NERDTreeToggle<CR>
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-
 " Smart way to move between windows
 map <C-j> <C-W>j
 map <C-k> <C-W>k
