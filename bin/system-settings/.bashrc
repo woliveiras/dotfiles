@@ -124,10 +124,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# NVM configuration
-export NVM_DIR="/home/william/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-
 # Colorize branch in Terminal
 # export PS1="\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
 export PS1="\[\033[1;30m\][\[\033[1;34m\]\u@\H\[\033[1;30m\]:\[\033[0;37m\]${SSH_TTY:-o} \
