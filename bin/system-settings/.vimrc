@@ -17,15 +17,9 @@ filetype plugin indent on
 set ruler
 set hidden
 set colorcolumn=80
-set directory=~/.vim/swaps
 set history=5000
 set scrolloff=10
 set wildmenu
-
-" Backup
-set backupdir=~/.vim/backups
-set backupskip=/tmp/*
-set backupskip+=/private/tmp/*
 
 " Use system clipboard
 set clipboard=unnamed
@@ -42,10 +36,6 @@ map <C-l> <C-W>l
 
 " space open/closes folds
 nnoremap <space> za
-
-" Theme
-set t_Co=256
-colorscheme monokai
 
 " Vundle config
 set nocompatible
