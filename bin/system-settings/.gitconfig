@@ -3,7 +3,3 @@
 	email = w.oliveira542@gmail.com
 [color]
 	ui = auto
-[diff]
-    tool = meld
-[difftool]
-    prompt = false
