@@ -26,11 +26,11 @@ Install "build-essential libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext p7
 
 Warning "Dev essentials"
 
-Install "git git-cola nodejs vim meld"
+Install "git git-cola vim meld"
 
-Warning "Install and Configure NVM 0.31.0, install NVM NodeJS stable and 0.12"
+Warning "Install and Configure NVM and NodeJS (stable and 0.12)"
 
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 
 mkdir ~/.nvm
 nvm install stable
@@ -54,7 +54,7 @@ Install "gimp inkscape vlc browser-plugin-vlc"
 
 Warning "Optimize Ubuntu"
 
-Install "indicator-multiload synapse ubuntu-tweak compizconfig-settings-manager preload zramswap-enabler indicator-keylock"
+Install "ubuntu-tweak compizconfig-settings-manager preload indicator-keylock"
 
 ## Optimize battery management
 
@@ -68,4 +68,4 @@ sudo tlp start
 
 ## Remember
 
-Alert "Remember to install later: " "- SublimeText\n- Chrome\n- Slack\n- Java (uurgh)"
+Alert "Remember to install later: " "Chrome\n- Slack\n- Java (uurgh)"
