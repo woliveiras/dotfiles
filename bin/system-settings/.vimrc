@@ -72,8 +72,3 @@ Plugin 'gmarik/Vundle.vim'
 
 call vundle#end()
 " End Vundle configuration
-
-"Configs to markdown preview
-let vim_markdown_preview_github=1
-let vim_markdown_preview_toggle=3
-let vim_markdown_preview_hotkey='<C-p-v>'
