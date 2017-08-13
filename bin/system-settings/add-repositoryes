@@ -1,6 +1,5 @@
 #!/bin/bash
 
-sudo add-apt-repository ppa:synapse-core/ppa -y
 sudo add-apt-repository ppa:tualatrix/ppa -y
 sudo add-apt-repository ppa:linrunner/tlp -y
 sudo add-apt-repository ppa:tsbarnes/indicator-keylock -y
