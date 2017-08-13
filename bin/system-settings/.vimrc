@@ -60,7 +60,7 @@ colorscheme monokai
 
 " Configure Vundle
 set nocompatible
-"filetype off
+filetype off
 
 " Vundle config
 set rtp+=~/.vim/bundle/Vundle.vim
