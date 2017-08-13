@@ -67,23 +67,8 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " ---- Plugins ----
-Plugin 'JamshedVesuna/vim-markdown-preview'
-Plugin 'jelera/vim-javascript-syntax'
-Plugin 'mileszs/ack.vim'
-Plugin 'vim-airline/vim-airline'
-Plugin 'kien/ctrlp.vim'
-Plugin 'lilydjwg/colorizer'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'majutsushi/tagbar'
-Plugin 'scrooloose/nerdtree'
-Plugin 'grvcoelho/vim-javascript-snippets'
-Bundle 'mattn/emmet-vim'
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'garbas/vim-snipmate'
 
-" Optional:
-"  Plugin 'honza/vim-snippets'
+" ---- End Plugins ----
 
 call vundle#end()
 " End Vundle configuration
