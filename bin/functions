@@ -1,9 +1,9 @@
 UpdateSystem () {
-    sudo apt-get update
-    sudo apt-get upgrade -y
+    sudo apt update
+    sudo apt upgrade -y
 }
 
 Install () {
-    sudo apt-get install $1 -y --force-yes
-    sudo apt-get autoremove
+    sudo apt install $1 -y --force-yes
+    sudo apt autoremove
 }
