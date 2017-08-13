@@ -39,7 +39,7 @@ Just run `sh install` on your Terminal and observe the Magic!
 
 Shell is :heart:.
 
-##Install spell checker pt_BR on Sublimetext
+## Install spell checker pt_BR on Sublimetext
 
 Download latest version of [Vero](https://pt-br.libreoffice.org/projetos/vero/).
 
