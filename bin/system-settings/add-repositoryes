@@ -14,3 +14,5 @@ sudo add-apt-repository ppa:shutter/ppa -y
 add-apt-repository ppa:kirillshkrogalev/ffmpeg-next -y
 # OBS Studio
 sudo add-apt-repository ppa:obsproject/obs-studio -y
+# SimpleScreenRecorder
+sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder -y

@@ -52,7 +52,7 @@ Install "gimp inkscape vlc browser-plugin-vlc shutter unetbootin"
 
 Warning "Install video utils"
 
-Install "ffmpeg mint-meta-codecs pitivi kdenlive obs-studio audacity"
+Install "ffmpeg mint-meta-codecs pitivi kdenlive obs-studio audacity simplescreenrecorder"
 
 ## Optimize Ubuntu
 
