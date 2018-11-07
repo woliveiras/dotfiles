@@ -89,11 +89,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias ..='cd ..'
-alias cola='git-cola'
 alias pyserver='python -m SimpleHTTPServer 8000'
-
-# Apache aliases
-alias restartapache='sudo /usr/sbin/apachectl restart'
 
 # Docker aliases
 alias stopallcontainers='docker stop $(docker ps -qa)'
@@ -127,9 +123,3 @@ fi
 # export PS1="\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
 export PS1="\[\033[1;30m\][\[\033[1;34m\]\u@\H\[\033[1;30m\]:\[\033[0;37m\]${SSH_TTY:-o} \
 \[\033[0;32m\]+${SHLVL}\[\033[1;30m\]] \[\033[1;37m\]\w\[\033[0;37m\]\[\033[1;34m\]\$(__git_ps1 \" (%s)\") \[\033[0;37m\] \n\$ "
-
-# added by travis gem
-[ -f /home/william/.travis/travis.sh ] && source /home/william/.travis/travis.sh
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
