@@ -1,5 +1,16 @@
 #!/bin/bash
 
-sudo add-apt-repository ppa:tualatrix/ppa -y
+# VIM
+sudo add-apt-repository ppa:jonathonf/vim -y
+# TLP
 sudo add-apt-repository ppa:linrunner/tlp -y
+# Caps indicator
 sudo add-apt-repository ppa:tsbarnes/indicator-keylock -y
+# UNetbootin
+sudo add-apt-repository ppa:gezakovacs/ppa -y
+# Shutter
+sudo add-apt-repository ppa:shutter/ppa -y
+# FFMPEG
+add-apt-repository ppa:kirillshkrogalev/ffmpeg-next -y
+# OBS Studio
+sudo add-apt-repository ppa:obsproject/obs-studio -y
