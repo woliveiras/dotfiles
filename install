@@ -30,9 +30,7 @@ Install "git vim"
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-# Warning "Install Heroku toolbelt"
-
-# wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 cp -v bin/system-settings/.bashrc bin/system-settings/.gitconfig bin/system-settings/.vimrc $HOME
 
