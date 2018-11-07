@@ -30,12 +30,6 @@ Install "curl git git-cola vim meld"
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-Warning "Install Heroku toolbelt"
-
-wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
-
-cp -v bin/system-settings/.bashrc bin/system-settings/.gitconfig bin/system-settings/.vimrc $HOME
-
 Warning "Install and Configure NVM and NodeJS (stable and 0.12)"
 
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
