@@ -44,9 +44,9 @@ mkdir ~/.nvm
 nvm install stable
 nvm install 0.12
 
-## Others
+## Utils
 
-Warning "Install others"
+Warning "Install utils"
 
 Install "gimp inkscape vlc browser-plugin-vlc shutter"
 
