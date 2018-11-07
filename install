@@ -50,6 +50,12 @@ Warning "Install utils"
 
 Install "gimp inkscape vlc browser-plugin-vlc shutter"
 
+## Video utils
+
+Warning "Install video utils"
+
+Install "ffmpeg mint-meta-codecs pitivi kdenlive obs-studio audacity"
+
 ## Optimize Ubuntu
 
 Warning "Optimize Ubuntu"
