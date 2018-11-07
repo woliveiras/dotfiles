@@ -46,7 +46,7 @@ nvm install 0.12
 
 Warning "Install utils"
 
-Install "gimp inkscape vlc browser-plugin-vlc shutter"
+Install "gimp inkscape vlc browser-plugin-vlc shutter unetbootin"
 
 ## Video utils
 
