@@ -89,5 +89,6 @@ Alert
         - Chrome \n
         - Slack \n
         - Java (uurgh) \n
+    You need logout to make changes in RVM \n
     And look this link to run RVM on all Terminals: \n
     https://github.com/rvm/ubuntu_rvm#2-change-your-terminal-window"
