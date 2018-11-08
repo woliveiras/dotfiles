@@ -18,3 +18,10 @@ sudo add-apt-repository ppa:obsproject/obs-studio -y
 sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder -y
 # RVM
 sudo apt-add-repository ppa:rael-gc/rvm -y
+# Docker
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo apt-key fingerprint 0EBFCD88
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   xenial \
+   stable"

@@ -52,6 +52,12 @@ nvm install 0.12
 
 sudo apt-get install rvm
 
+## Install Docker
+
+sudo apt-get install docker-ce
+sudo groupadd docker
+sudo usermod -aG docker $USER
+
 ## Utils
 
 Warning "Install utils"
