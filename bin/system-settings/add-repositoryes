@@ -16,3 +16,5 @@ add-apt-repository ppa:kirillshkrogalev/ffmpeg-next -y
 sudo add-apt-repository ppa:obsproject/obs-studio -y
 # SimpleScreenRecorder
 sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder -y
+# RVM
+sudo apt-add-repository ppa:rael-gc/rvm -y

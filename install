@@ -48,6 +48,10 @@ mkdir ~/.nvm
 nvm install stable
 nvm install 0.12
 
+## Install RVM
+
+sudo apt-get install rvm
+
 ## Utils
 
 Warning "Install utils"
@@ -78,4 +82,12 @@ sudo tlp start
 
 ## Remember
 
-Alert "Remember to install later: " "Chrome\n- Slack\n- Java (uurgh)"
+Alert 
+    "
+    ############################## \n \n
+    Remember to install later: \n
+        - Chrome \n
+        - Slack \n
+        - Java (uurgh) \n
+    And look this link to run RVM on all Terminals: \n
+    https://github.com/rvm/ubuntu_rvm#2-change-your-terminal-window"
