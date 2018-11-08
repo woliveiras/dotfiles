@@ -20,7 +20,7 @@ UpdateSystem
 
 Warning "Install essentials"
 
-Install "build-essential libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext p7zip p7zip-full p7zip-rar lzma lzma-dev ubuntu-restricted-extras apt-transport-https ca-certificates software-properties-common terminator"
+Install "build-essential libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext p7zip p7zip-full p7zip-rar lzma lzma-dev ubuntu-restricted-extras apt-transport-https ca-certificates software-properties-common terminator gnupg"
 
 ## Dev essentials
 
