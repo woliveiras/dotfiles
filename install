@@ -20,7 +20,7 @@ UpdateSystem
 
 Warning "Install essentials"
 
-Install "build-essential libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext p7zip p7zip-full p7zip-rar lzma lzma-dev ubuntu-restricted-extras apt-transport-https ca-certificates software-properties-common terminator gnupg"
+Install "build-essential libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext p7zip p7zip-full p7zip-rar lzma lzma-dev ubuntu-restricted-extras apt-transport-https ca-certificates software-properties-common terminator gnupg snapd"
 
 ## Dev essentials
 
@@ -62,7 +62,7 @@ sudo usermod -aG docker $USER
 
 Warning "Install utils"
 
-Install "gimp inkscape vlc browser-plugin-vlc shutter unetbootin"
+Install "gimp inkscape vlc browser-plugin-vlc shutter unetbootin shotwell"
 
 ## Video utils
 
@@ -85,6 +85,9 @@ sudo apt-get remove laptop-mode-tools
 Install "tlp tlp-rdw"
 
 sudo tlp start
+
+## Install Spotify
+sudo snap install spotify
 
 ## Install Java
 
