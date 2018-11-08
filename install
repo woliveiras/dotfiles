@@ -28,11 +28,17 @@ Warning "Dev essentials"
 
 Install "git vim zsh"
 
+## Vundle (VIM Package Manager)
+
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+## Copy configs to home
+
 cp -v bin/system-settings/.bashrc bin/system-settings/.gitconfig bin/system-settings/.vimrc $HOME
+
+## Install NVM
 
 Warning "Install and Configure NVM and NodeJS (stable and 0.12)"
 
