@@ -86,6 +86,10 @@ Install "tlp tlp-rdw"
 
 sudo tlp start
 
+## Install Java
+
+sudo apt-get install oracle-java8-installer
+
 ## Remember
 
 Alert 
@@ -94,7 +98,6 @@ Alert
     Remember to install later: \n
         - Chrome \n
         - Slack \n
-        - Java (uurgh) \n
     You need logout to make changes in RVM \n
     And look this link to run RVM on all Terminals: \n
     https://github.com/rvm/ubuntu_rvm#2-change-your-terminal-window"
