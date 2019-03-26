@@ -47,6 +47,8 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | 
 mkdir ~/.nvm
 nvm install stable
 nvm install 0.12
+nvm use stable
+npm install svgo -g
 
 ## Install RVM
 
